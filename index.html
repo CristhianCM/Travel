@@ -7,8 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/normalize.css">
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-  <title>Viajar es vida</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="icon" type="image/ico" href="assets/Icon.ico" />
+  <title>Travel</title>
 </head>
 
 <body>
@@ -25,12 +28,16 @@
         <li class="list"><a class="ancla" href="#destination">Populares <i class="icon ion-md-arrow-dropdown"></i></a>
           <ul class="enlaces">
             <li class="list"><a class="ancla none" href="#destination">Perú</a></li>
-            <li class="list"><a class="ancla none"  href="#destination">Camboya</a></li>
+            <li class="list"><a class="ancla none" href="#destination">Camboya</a></li>
             <li class="list"><a class="ancla none" href="#destination">India</a></li>
           </ul>
         </li>
         <li class="list"><a class="ancla" href="#footer">Contacto</a></li>
       </ul>
+      <button class="switch" id="switch"  >
+        <span><i class="fas fa-sun"></i></span>
+        <span><i class="fas fa-moon"></i></span>
+      </button>
       <div class="toogle"><img src="assets/toggle.png" alt="Boton" id="menutoogle"></div>
     </nav>
   </section>
@@ -38,8 +45,8 @@
   <section class="banner">
     <img src="assets/banner.jpg" class="Slogan" alt="">
     <div class="content">
-      <h2>Explora el Mundo</h2>
-      <p>
+      <h2 class="animate__animated animate__fadeInUp">Explora el Mundo</h2>
+      <p class="animate__animated animate__fadeIn">
         Viajar no es una actividad que esté limitada para los ricos, es algo que todos podemos hacer si realmente nos lo
         proponemos.
       </p>
