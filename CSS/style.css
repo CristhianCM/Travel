@@ -10,14 +10,14 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 
 body {
   background: #111;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark {
@@ -74,8 +74,8 @@ nav h3 {
           align-items: center;
   color: #fff;
   text-decoration: none;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark nav h3 {
@@ -91,8 +91,8 @@ nav .ancla {
   line-height: 5rem;
   color: #fff;
   text-decoration: none;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark nav .ancla {
@@ -119,8 +119,8 @@ nav .enlaces .list .enlaces .list .ancla {
 
 nav .enlaces .list .ancla:hover {
   color: #9e9898;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark nav .enlaces .list .ancla:hover {
@@ -135,7 +135,7 @@ body.dark nav .enlaces .list .ancla:hover {
 }
 
 .switch {
-  background: #343D5B;
+  background: #343d5b;
   border-radius: 1000px;
   border: none;
   position: relative;
@@ -154,13 +154,13 @@ body.dark nav .enlaces .list .ancla:hover {
   width: 30px;
   height: 30px;
   position: absolute;
-  background: #F1F1F1;
+  background: #f1f1f1;
   top: 0;
   left: 0;
   right: unset;
   border-radius: 100px;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
   -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -209,8 +209,8 @@ body.dark nav .enlaces .list .ancla:hover {
   z-index: 1;
   background: -webkit-gradient(linear, left bottom, left top, from(#111), to(transparent));
   background: linear-gradient(to top, #111, transparent);
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .banner::before {
@@ -228,8 +228,8 @@ body.dark .banner::before {
 .banner .content h2 {
   color: #fff;
   font-size: 5em;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .banner .content h2 {
@@ -239,8 +239,8 @@ body.dark .banner .content h2 {
 .banner .content p {
   color: #fff;
   font-size: 1.2em;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .banner .content p {
@@ -258,8 +258,8 @@ body.dark .banner .content p {
   color: #333;
   text-decoration: none;
   border-radius: 10px;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .button {
@@ -270,8 +270,8 @@ body.dark .button {
 .button:hover {
   background: #696565;
   color: #fff;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .button:hover {
@@ -318,8 +318,8 @@ body.dark .button:hover {
   color: #fff;
   font-size: 2em;
   margin-bottom: 10px;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .titleText {
@@ -329,8 +329,8 @@ body.dark .titleText {
 .text {
   color: #fff;
   font-size: 1em;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .text {
@@ -372,8 +372,8 @@ body.dark .text {
   z-index: 1;
   background: -webkit-gradient(linear, left bottom, left top, from(#111), to(transparent));
   background: linear-gradient(to top, #111, transparent);
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .banner2:before, body.dark
@@ -393,8 +393,8 @@ body.dark .banner2:before, body.dark
   z-index: 1;
   background: -webkit-gradient(linear, left top, left bottom, from(#111), to(transparent));
   background: linear-gradient(to bottom, #111, transparent);
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .banner2:after, body.dark
@@ -436,12 +436,12 @@ body.dark .banner2:after, body.dark
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin: 10px;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .destination .destinationList .box {
-  background: #FFF;
+  background: #fff;
 }
 
 .destination .destinationList:hover .box {
@@ -476,8 +476,8 @@ body.dark .destination .destinationList .box {
   color: #fff;
   font-weight: 500;
   line-height: 1.2em;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .destination .destinationList .box .content h2 {
@@ -527,8 +527,8 @@ body.dark .destination .destinationList .box .content h2 {
   -webkit-filter: invert(1);
           filter: invert(1);
   max-width: 40px;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .footer .social li a img {
@@ -543,8 +543,8 @@ body.dark .footer .social li a img {
   font-weight: 300;
   color: #666;
   text-align: center;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .copyrightText {
@@ -554,8 +554,8 @@ body.dark .copyrightText {
 .copyrightText a {
   color: #fff;
   text-decoration: none;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
 }
 
 body.dark .copyrightText a {
@@ -590,8 +590,8 @@ body.dark .copyrightText a {
     right: 33px;
     top: 20px;
     z-index: 3;
-    -webkit-transition: .3s ease all;
-    transition: .3s ease all;
+    -webkit-transition: 0.3s ease all;
+    transition: 0.3s ease all;
   }
   body.dark .header .toogle img {
     -webkit-filter: invert(1);
@@ -620,8 +620,8 @@ body.dark .copyrightText a {
             flex-direction: column;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
-    -webkit-transition: .3s ease all;
-    transition: .3s ease all;
+    -webkit-transition: 0.3s ease all;
+    transition: 0.3s ease all;
   }
   body.dark .enlaces {
     font-size: 1.3rem;
@@ -686,7 +686,7 @@ body.dark .copyrightText a {
     font-size: 1em;
   }
   .button {
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .titleText {
     font-size: 1.8em;
