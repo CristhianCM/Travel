@@ -25,6 +25,6 @@ This is a page with a focus on showing places to visit, with a good design that 
 
 ### 👌 Open page
 
-Visit [GitHub_Page_Website](https://cristhiancm.github.io/Travel/#destination)
+Visit [GitHub_Page_Travel](https://cristhiancm.github.io/Travel/#destination)
 
 ![Image text](https://github.com/CristhianCM/Travel/blob/main/assets/Travel_Finish.png)
